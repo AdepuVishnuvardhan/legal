@@ -1,0 +1,66 @@
+/* Container Styles */
+.document-detection-container {
+  background-color: #f4f4f4;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeInDetect 0.8s ease-in-out;
+}
+
+/* Title Styling */
+.document-detection-container h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Input File Styles */
+.document-detection-container input[type="file"] {
+  margin: 20px 0;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.document-detection-container input[type="file"]:hover {
+  border-color: #3498db;
+}
+
+/* Button Styling */
+.document-detection-container button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.document-detection-container button:hover {
+  background-color: #2980b9;
+}
+
+/* Keyframe Animation */
+@keyframes fadeInDetect {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

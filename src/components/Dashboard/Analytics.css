@@ -1,0 +1,55 @@
+.analytics-container {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .analytics-container h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .analytics-container p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .analytics-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .sample-graph {
+    background-color: #fff;
+    border: 2px solid #dedede;
+    padding: 20px;
+    width: 48%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .case-metrics {
+    background-color: #fff;
+    border: 2px solid #dedede;
+    padding: 20px;
+    width: 48%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .case-metrics p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .sample-graph p, .case-metrics p {
+    margin: 0;
+  }
+  
